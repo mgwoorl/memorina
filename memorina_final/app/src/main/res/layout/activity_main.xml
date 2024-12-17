@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/card0"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/card4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/card8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card10"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card11"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/card12"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card13"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card14"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+
+            <ImageView
+                android:id="@+id/card15"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:contentDescription="@string/description"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_back" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
